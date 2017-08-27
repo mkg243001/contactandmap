@@ -20,7 +20,6 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_maps);
-        TextView t=(TextView)findViewById(R.id.textView);
         Bundle in=getIntent().getExtras();
         h1=in.getString("h1");
         h2=in.getString("h2");
